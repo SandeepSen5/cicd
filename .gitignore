@@ -1,0 +1,67 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# =========================
+# Build folders
+# =========================
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# =========================
+# Coverage / test reports
+# =========================
+coverage/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Dependency lock (optional)
+# =========================
+# Uncomment if you don’t want lock files
+# package-lock.json
+# yarn.lock
+
+# =========================
+# CI / cache
+# =========================
+.cache/
+.eslintcache
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
